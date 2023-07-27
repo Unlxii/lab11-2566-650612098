@@ -82,7 +82,7 @@ export default function RegisFormPage() {
       fnameOk = false;
       setFnameError(true);
     }
-    let genderOk = null;
+    let genderOk = true;
     if (gender === null) {
       genderOk = false;
       setGenderError(true);
