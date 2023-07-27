@@ -33,6 +33,7 @@ export default function RegisFormPage() {
   };
 
   const radioGenderMaleOnChange = () => {
+    setGenderError(false);
     setGender("male");
   };
 
